@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-sudo docker pull deena7/simple-python-app
+pull deena7/simple-python-app
 
 # Run the Docker image as a container
-sudo docker run -d -p 5000:5000 deena7/simple-python-app
+run -d -p 5000:5000 deena7/simple-python-app
